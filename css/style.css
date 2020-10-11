@@ -5,9 +5,10 @@
     color: tomato;
     line-height: 36px;
 }
-.container{
+.container:nth-child(1) {
     padding-left: 0;
 }
+
 p {
     font-size: 1.2em;
 }
@@ -23,7 +24,6 @@ body {
 .navbar-brand {
     color: tomato;
     font-size: 2rem;
-    padding-left: 0;
 }
 .navbar-brand:hover {
     color: red;
@@ -61,6 +61,5 @@ body {
     .container {
         width: 80%;
         margin: 0 auto;
-        padding-right: 0;
     }
 }
