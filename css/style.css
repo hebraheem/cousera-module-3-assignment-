@@ -28,9 +28,16 @@ body {
 .navbar-brand:hover {
     color: red;
 }
-.nav-item .btn {
+.nav-item a {
     color: tomato;
     margin-bottom: 20px;
+    text-decoration: none;
+    background-color: yellowgreen;
+    width: 100%;
+}
+.nav-item a:hover {
+    color: red;
+    background-color: teal;
 }
 .header-text {
     padding-top: 50px;
